@@ -1,10 +1,9 @@
 body {
     font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     color: #333;
     background-color: #c1c1c1;
+    padding: 10px, 5px, 5px, 2px;
 }
 
 header {
@@ -280,16 +279,19 @@ section {
     border-radius: 5px;
     background: linear-gradient(141deg, #bb890b, #ffb700, #817044, #d39b0b, #997109);
     background-size: 1000% 1000%;
-    animation: AnimationName 5s ease infinite; /* Definido um tempo para animação */
+    animation: AnimationName 5s ease infinite;
+    /* Definido um tempo para animação */
 }
 
 @keyframes AnimationName {
     0% {
         background-position: 0% 5%;
     }
+
     50% {
         background-position: 100% 96%;
     }
+
     100% {
         background-position: 0% 5%;
     }
@@ -300,7 +302,7 @@ section {
 
 
 .rodape {
-    color:#f6f6f6;
+    color: #f6f6f6;
     margin-top: 3rem;
     padding-top: 1rem;
     margin: 0 auto;
@@ -319,12 +321,7 @@ section {
     align-items: center;
 }
 
-.imagem1 {
-    margin: 0 auto;
-    align-items: center;
-    width: 900px;
-    height: 460px;
-}
+
 
 .divImagem1 {
     margin: 0 auto;
@@ -332,4 +329,150 @@ section {
     justify-content: center;
 
 
+}
+
+.session {
+    padding: 10rem;
+}
+
+
+.rodape {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.logoo {
+    display: flexbox;
+    align-items: center;
+    width: 90px;
+    justify-content: center;
+}
+
+/* Estilos básicos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    /* Aumentado para caber mais conteúdo */
+    padding: 30px;
+    /* Aumentado para dar mais espaço */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.container h1 {
+    font-size: 1.8rem;
+    /* Aumentado para melhorar a visibilidade */
+    color: #d4af37;
+    /* Dourado */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Formulário */
+#formCriarConta {
+    display: grid;
+    /* Alterado para grid */
+    grid-template-columns: repeat(2, 1fr);
+    /* Duas colunas */
+    gap: 1.2rem;
+    /* Espaçamento entre os campos */
+}
+
+#formCriarConta label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Campos de entrada */
+#formCriarConta input,
+#formCriarConta select {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+#formCriarConta input:focus,
+#formCriarConta select:focus {
+    outline: none;
+    border-color: #d4af37;
+    /* Dourado */
+}
+
+/* Botão de submissão */
+#formCriarConta button {
+    grid-column: span 2;
+    /* Faz o botão ocupar duas colunas */
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d4af37;
+    /* Dourado */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#formCriarConta button:hover {
+    background-color: #c5a12e;
+    /* Dourado mais escuro para hover */
+}
+
+/* Carrossel de imagens */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.carousel-image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 768px) {
+    #formCriarConta {
+        grid-template-columns: 1fr;
+        /* Uma coluna em telas pequenas */
+    }
+
+    .container {
+        padding: 20px;
+        /* Ajuste para dispositivos móveis */
+    }
+}
+
+.sessaoLoguin{
+    padding-top: 25rem;
 }

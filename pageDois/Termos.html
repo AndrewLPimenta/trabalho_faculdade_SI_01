@@ -5,40 +5,83 @@
     <meta charset="UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="../assets/LOGO__2_-removebg-preview.png">
+    <link rel="icon" href="../assets/logo.machinecrip.png">
     <title>Machine Cripto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-
+0
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <img class="logo_machine" src="../assets/logo.machinecrip.png" alt="Logo Machine Cripto">
-            <a class="navLinks" href="./indexDois.html">Sobre</a>
-            <a class="navLinks" href="../index.html">Home</a>
-            <a class="navLinks" href="#">Termos de uso</a>
-            <label class="burger" for="burger">
-                <input type="checkbox" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
+    <header>
+        <nav class="navbar navbar-dark fixed-top" style="background-color: #272727;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="" src="./assets/logo.machinecrip.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" style="background-color: #272727; color: #f6f6f6;">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background-color: #272727; color: #f6f6f6;">
+                        <ul class="navbar-nav justify-content-end pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html" style="color: #f6f6f6;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #f6f6f6;">Entre ou Cadastre-se</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="color: #f6f6f6;">
+                                    Mais
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: #272727;">
+                                    <li><a class="dropdown-item" href="./indexDois.html" style="color: #f6f6f6;">Sobre Nós</a></li>
+                                    <li><a class="dropdown-item" href="./Termos.html" style="color: #f6f6f6;">Termos de uso</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" style="background-color: #f6f6f6;">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#" style="color: #f6f6f6;">Atendimento ao
+                                            cliente</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="O que você procura?"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
+
     </header>
 
 
-    <main class="container">
-        <section class="session">
-            <div class="session_right">
-                <h1 class="toping_h1">Termos de Uso:</h1>
-                <h2>Sobre os Termos de Uso</h2>
+    <main class="session">
+        <section class="">
+            <img class="logoo" src="../assets/LOGO__2_-removebg-preview.png" alt="">
+            <div class="">
+                <h1 class=" " style="text-decoration: transparent;"></h1>
+                <h2 class="">Sobre os Termos de Uso</h2>
                 <p>
                     Neste conteúdo você irá encontrar tudo que precisa saber para desenvolver os Termos de Uso ideais
                     para disponibilizar em sua plataforma digital.
@@ -46,7 +89,7 @@
                 <p>
                     Como qualquer usuário do universo digital, você definitivamente já se deparou com um Termo de Uso em
                     algum website em que navegava. Pode ser que, na maioria das vezes, tenha ignorado sua presença e
-                    simplesmente dado o aceite às condições lá delineadas sem prestar muita atenção.
+                    simplesmente aceitado às condições delineadas muita atenção.
                 </p>
                 <p>
                     No entanto, de fato trata-se de um documento de alta relevância para qualquer serviço e portal
@@ -57,18 +100,18 @@
                     Os Termos de Uso são um contrato celebrado entre o empreendedor (fornecedor) e o cliente
                     (consumidor/usuário) e são utilizados em plataformas digitais, sendo, portanto, obrigatórios para os
                     comércios eletrônicos (art. 4º, inciso I, Decreto nº 7.962/2013). Esse contrato serve para
-                    estabelecer direitos e obrigações de cada uma das partes, bem como indicar o produto e/ou o serviço
-                    que está sendo comprado.
+                    estabelecer direitos e obrigações entre as partes, bem como indicar o produto e/ou o serviço oferecido
+                .
                 </p>
                 <p>
-                    Esse contrato enquadra-se na modalidade de contrato de adesão, a qual o contrato é elaborado
-                    inteiramente por apenas uma das partes, geralmente o fornecedor, não dando ao consumidor a
-                    possibilidade de discutir o contrato, propondo alterações.
+                    Esse contrato enquadra-se na modalidade de contrato de adesão, elaborado
+                    inteiramente por apenas uma das partes, em sua grande maioria o fornecedor, não dando ao consumidor a
+                    possibilidade de discutir o contrato ou propondo alterações.
                 </p>
                 <p>
                     Ressalta-se, ainda, que os Termos de Uso não equivalem à Política de Privacidade, que são documentos
                     por vezes complementares, porém diversos. Os Termos de Uso tratam da utilização do produto e/ou
-                    serviço oferecido pela empresa, já a Política de Privacidade diz respeito ao tratamento de dados
+                    serviço oferecido pela empresa, enquanto a  Política de Privacidade diz respeito ao tratamento de dados
                     pessoais dos usuários que a empresa realiza.
                 </p>
                 <p>
@@ -80,10 +123,6 @@
 
                 <h2>Qual sua importância?</h2>
                 <p>
-                    Os Termos de Uso servem para definir a relação entre a empresa e seus clientes, definindo obrigações
-                    de ambas as partes, as limitações de sua responsabilidade, bem como os direitos dos consumidores.
-                </p>
-                <p>
                     Em outras palavras, pode-se dizer que o papel fundamental dos Termos de Uso será de estabelecer
                     normas de utilização da plataforma pelo usuário e delinear os limites da responsabilidade do
                     fornecedor.
@@ -92,12 +131,11 @@
                     Em verdade, a importância desta modalidade contratual engloba duas perspectivas opostas: por um
                     lado, fornecem proteção e segurança jurídica ao fornecedor, que faz uso dos Termos de Uso para
                     esclarecer limites, direitos e obrigações perante o consumidor; e de outro, fornecem transparência e
-                    acessibilidade ao consumidor no que diz respeito ao funcionamento da plataforma e aos seus direitos
+                    acessibilidade ao consumidor a respeito ao funcionamento da plataforma e aos seus direitos
                     nesse contexto.
                 </p>
                 <p>
-                    Importante pontuar, em contrapartida, que para que os Termos de Uso cumpram com o propósito ao qual
-                    se propõem, deverão ser elaborados de maneira bastante personalizada e adequada ao objeto da
+                    Importante pontuar, em contrapartida, que para que os Termos de Uso cumpram com o seu propósito, deverão ser elaborados de maneira bastante personalizada e adequada ao objeto da
                     plataforma digital em questão.
                 </p>
                 <p>
@@ -160,9 +198,9 @@
                     <li>Descrição do objeto / produto / atividade desenvolvida / serviço disponibilizado: Espera-se que
                         nos Termos de Uso o fornecedor irá descrever com precisão, clareza e transparência o objeto,
                         produto, atividade ou serviço disponibilizado na plataforma.</li>
-                    <footer class="rodape">
-                        <p>Todos os direitos reservados ©️ Machine Cripto</p>
-                    </footer>
+                        <div></div>
+
+                    
 </body>
 
 </html>
